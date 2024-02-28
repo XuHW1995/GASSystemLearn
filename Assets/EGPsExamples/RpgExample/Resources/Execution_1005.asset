@@ -16,13 +16,15 @@ MonoBehaviour:
   EndTime: 1.5
   ExecuteClipType: 0
   ActionEventData:
-    _StartTime: 0
-    _EndTime: 0
     ActionEventType: 0
     EffectApply: 0
     NewExecution: 
   CollisionExecuteData:
     ExecuteType: 0
+    ActionData:
+      ActionEventType: 0
+      EffectApply: 0
+      NewExecution: 
     Shape: 0
     Radius: 1
     Center: {x: 0, y: 0, z: 0}
@@ -53,13 +55,15 @@ MonoBehaviour:
   EndTime: 0.8037234
   ExecuteClipType: 2
   ActionEventData:
-    _StartTime: 0
-    _EndTime: 0
     ActionEventType: 0
     EffectApply: 0
     NewExecution: 
   CollisionExecuteData:
     ExecuteType: 0
+    ActionData:
+      ActionEventType: 0
+      EffectApply: 0
+      NewExecution: 
     Shape: 0
     Radius: 0
     Center: {x: 0, y: 0, z: 0}
@@ -70,6 +74,45 @@ MonoBehaviour:
     Points: []
   AnimationData:
     AnimationClip: {fileID: 7400000, guid: 7b5b17e2d42e0424f9c36012595dc9b6, type: 3}
+  AudioData:
+    AudioClip: {fileID: 0}
+  ParticleEffectData:
+    ParticleEffect: {fileID: 0}
+--- !u!114 &-1807004646622778336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4db22cb51ab2b354aae7c5f4e7e1d7aa, type: 3}
+  m_Name: ExecuteClip
+  m_EditorClassIdentifier: 
+  StartTime: 0
+  EndTime: 0.10000001
+  ExecuteClipType: 0
+  ActionEventData:
+    ActionEventType: 0
+    EffectApply: 0
+    NewExecution: 
+  CollisionExecuteData:
+    ExecuteType: 0
+    ActionData:
+      ActionEventType: 0
+      EffectApply: 0
+      NewExecution: 
+    Shape: 0
+    Radius: 0
+    Center: {x: 0, y: 0, z: 0}
+    Size: {x: 0, y: 0, z: 0}
+    MoveType: 0
+    ObjAsset: {fileID: 0}
+    Speed: 1
+    Points: []
+  AnimationData:
+    AnimationClip: {fileID: 0}
   AudioData:
     AudioClip: {fileID: 0}
   ParticleEffectData:
@@ -91,7 +134,169 @@ MonoBehaviour:
   ObjAsset: {fileID: 0}
   TargetInputType: 2
   RangeIndicatorObjAsset: {fileID: 0}
+  PointIndicatorObjAsset: {fileID: 0}
   DirectionIndicatorObjAsset: {fileID: 0}
   ExecuteClips:
   - {fileID: -9079915019873010318}
   - {fileID: -3219663192078307370}
+  - {fileID: 201715397586377579}
+  - {fileID: 539128667718194937}
+  - {fileID: -1807004646622778336}
+  - {fileID: 8321505673180846859}
+  - {fileID: 1411389539890575287}
+--- !u!114 &201715397586377579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4db22cb51ab2b354aae7c5f4e7e1d7aa, type: 3}
+  m_Name: ExecuteClip
+  m_EditorClassIdentifier: 
+  StartTime: 0.7282741
+  EndTime: 0.82827425
+  ExecuteClipType: 0
+  ActionEventData:
+    ActionEventType: 0
+    EffectApply: 0
+    NewExecution: 
+  CollisionExecuteData:
+    ExecuteType: 0
+    ActionData:
+      ActionEventType: 0
+      EffectApply: 0
+      NewExecution: 
+    Shape: 0
+    Radius: 0
+    Center: {x: 0, y: 0, z: 0}
+    Size: {x: 0, y: 0, z: 0}
+    MoveType: 0
+    ObjAsset: {fileID: 0}
+    Speed: 1
+    Points: []
+  AnimationData:
+    AnimationClip: {fileID: 0}
+  AudioData:
+    AudioClip: {fileID: 0}
+  ParticleEffectData:
+    ParticleEffect: {fileID: 0}
+--- !u!114 &539128667718194937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4db22cb51ab2b354aae7c5f4e7e1d7aa, type: 3}
+  m_Name: ExecuteClip
+  m_EditorClassIdentifier: 
+  StartTime: 0.8457011
+  EndTime: 0.94570124
+  ExecuteClipType: 0
+  ActionEventData:
+    ActionEventType: 0
+    EffectApply: 0
+    NewExecution: 
+  CollisionExecuteData:
+    ExecuteType: 0
+    ActionData:
+      ActionEventType: 0
+      EffectApply: 0
+      NewExecution: 
+    Shape: 0
+    Radius: 0
+    Center: {x: 0, y: 0, z: 0}
+    Size: {x: 0, y: 0, z: 0}
+    MoveType: 0
+    ObjAsset: {fileID: 0}
+    Speed: 1
+    Points: []
+  AnimationData:
+    AnimationClip: {fileID: 0}
+  AudioData:
+    AudioClip: {fileID: 0}
+  ParticleEffectData:
+    ParticleEffect: {fileID: 0}
+--- !u!114 &1411389539890575287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4db22cb51ab2b354aae7c5f4e7e1d7aa, type: 3}
+  m_Name: ExecuteClip
+  m_EditorClassIdentifier: 
+  StartTime: 0
+  EndTime: 0.1
+  ExecuteClipType: 0
+  ActionEventData:
+    ActionEventType: 0
+    EffectApply: 0
+    NewExecution: 
+  CollisionExecuteData:
+    ExecuteType: 0
+    ActionData:
+      ActionEventType: 0
+      EffectApply: 0
+      NewExecution: 
+    Shape: 0
+    Radius: 0
+    Center: {x: 0, y: 0, z: 0}
+    Size: {x: 0, y: 0, z: 0}
+    MoveType: 0
+    ObjAsset: {fileID: 0}
+    Speed: 1
+    Points: []
+  AnimationData:
+    AnimationClip: {fileID: 0}
+  AudioData:
+    AudioClip: {fileID: 0}
+  ParticleEffectData:
+    ParticleEffect: {fileID: 0}
+--- !u!114 &8321505673180846859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4db22cb51ab2b354aae7c5f4e7e1d7aa, type: 3}
+  m_Name: ExecuteClip
+  m_EditorClassIdentifier: 
+  StartTime: 0
+  EndTime: 0.10000001
+  ExecuteClipType: 0
+  ActionEventData:
+    ActionEventType: 0
+    EffectApply: 0
+    NewExecution: 
+  CollisionExecuteData:
+    ExecuteType: 0
+    ActionData:
+      ActionEventType: 0
+      EffectApply: 0
+      NewExecution: 
+    Shape: 0
+    Radius: 0
+    Center: {x: 0, y: 0, z: 0}
+    Size: {x: 0, y: 0, z: 0}
+    MoveType: 0
+    ObjAsset: {fileID: 0}
+    Speed: 1
+    Points: []
+  AnimationData:
+    AnimationClip: {fileID: 0}
+  AudioData:
+    AudioClip: {fileID: 0}
+  ParticleEffectData:
+    ParticleEffect: {fileID: 0}

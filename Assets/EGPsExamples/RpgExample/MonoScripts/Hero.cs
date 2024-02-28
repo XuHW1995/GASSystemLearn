@@ -56,8 +56,8 @@ public sealed class Hero : MonoBehaviour
         CombatEntity.ListenActionPoint(ActionPointType.PostReceiveCure, OnReceiveCure);
         CombatEntity.ListenActionPoint(ActionPointType.PostReceiveStatus, OnReceiveStatus);
         CombatEntity.Subscribe<RemoveStatusEvent>(OnRemoveStatus);
-        CombatEntity.Subscribe<AnimationClip>(OnPlayAnimation);
         CombatEntity.CurrentHealth.Minus(30000);
+        CombatEntity.Subscribe<AnimationClip>(OnPlayAnimation);
 
 #if EGAMEPLAY_EXCEL
         var config = ConfigHelper.Get<SkillConfig>(1001);
